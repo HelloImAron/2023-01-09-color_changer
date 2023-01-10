@@ -17,18 +17,26 @@ body {
   font-family: "Poppins", sans-serif;
 }
 body .wrapper {
+  width: 20rem;
   background-color: white;
   padding: 1.5rem;
   border: 3px solid black;
   box-shadow: 4px 4px 0px 0px black;
   transition: all 150ms ease-in-out;
 }
+body .like {
+  width: 2rem;
+  transition: all 150ms ease-in-out;
+}
+body .like:hover {
+  cursor: pointer;
+}
 body .button-wrapper {
-  display: grid;
-  place-items: end;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 body .change-button {
-  margin-top: 1rem;
   padding: 0.5rem;
   font-family: inherit;
   font-weight: bold;

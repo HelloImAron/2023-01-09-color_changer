@@ -1,49 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 *,
 *::after,
 *::before {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    place-items: center;
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	place-items: center;
 
-    background-color: #575757;
+	background-color: #575757;
 
-    font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 
-    .wrapper {
-        background-color: white;
-        padding: 1.5rem;
-        border: 3px solid black;
-        box-shadow: 4px 4px 0px 0px rgba(black, 1);
-        transition: all 150ms ease-in-out;
-    }
+	.wrapper {
+		width: 20rem;
+		background-color: white;
+		padding: 1.5rem;
+		border: 3px solid black;
+		box-shadow: 4px 4px 0px 0px rgba(black, 1);
+		transition: all 150ms ease-in-out;
+	}
 
-    .button-wrapper {
-        display: grid;
-        place-items: end;
-    }
+	.like {
+		width: 2rem;
+		transition: all 150ms ease-in-out;
+	}
 
-    .change-button {
-        margin-top: 1rem;
-        padding: 0.5rem;
-        font-family: inherit;
-        font-weight: bold;
-        border: 3px solid black;
-        box-shadow: 2px 2px 0px 0px rgba(black, 1);
-        cursor: pointer;
-        transition: all 150ms ease-in-out;
-    }
+	.like:hover {
+		cursor: pointer;
+	}
 
-    .change-button:hover {
-        box-shadow: 4px 4px 0px 0px rgba(black, 0.5);
-    }
+	.button-wrapper {
+		padding: 1rem;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.change-button {
+		padding: 0.5rem;
+		font-family: inherit;
+		font-weight: bold;
+		border: 3px solid black;
+		box-shadow: 2px 2px 0px 0px rgba(black, 1);
+		cursor: pointer;
+		transition: all 150ms ease-in-out;
+	}
+
+	.change-button:hover {
+		box-shadow: 4px 4px 0px 0px rgba(black, 0.5);
+	}
 }
